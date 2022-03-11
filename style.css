@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "roboto", sans-serif;
 }
@@ -8,11 +13,12 @@ body {
     display: flex;
     background-color: #1f2937;
     flex-direction: column;
-    padding: 0px 200px 00px 200px
+    padding: 1em 13em;
     
 }
 
 nav {
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     
@@ -25,9 +31,54 @@ nav {
     align-items: center;
 }
 
-ul {
+ul, .header a {
     display: flex;
     list-style: none;
     gap: 50px;
-    color:#f9faf8
+    color: #f9faf8;
+    text-decoration: none;
+    
+}
+
+/*Body Section*/
+
+.welcome {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10em 13em;
+    gap: 2em;
+    
+}
+
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h1 {
+    font-size: 48px;
+    color: white;
+    padding: 0 0 10px 0;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    padding: 0 0 10px 0;
+}
+
+.button {
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+}
+
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
 }
