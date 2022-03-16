@@ -130,3 +130,69 @@ h2 {
     margin: 5px 20px 0px 20px;
 
 }
+
+/*Quote Section*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding: 0 200px;
+    
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.quote b {
+    font-family: "Roboto", sans-serif;
+    padding: 0 20px 0 50px;
+    text-align: center;
+}
+
+/*Sign up section*/
+
+.sign-up-box {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto" sans-serif;
+    border-radius: 5px;
+    border-color: none;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.sign-text {
+    text-align: left;
+    margin: 20px
+}
+
+.sign-up-button button {
+    color: #fff;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    margin: 0 200px;
+
+}
+
+/*Footer Section*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
